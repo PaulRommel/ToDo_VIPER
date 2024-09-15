@@ -1,13 +1,13 @@
 //
-//  TaskAppUITestsLaunchTests.swift
-//  TaskAppUITests
+//  VipToDoerUITestsLaunchTests.swift
+//  VipToDoerUITests
 //
-//  Created by Pavel Popov on 14.09.2024.
+//  Created by Pavel Popov on 06.09.2024.
 //
 
 import XCTest
 
-final class TaskAppUITestsLaunchTests: XCTestCase {
+final class VipToDoerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

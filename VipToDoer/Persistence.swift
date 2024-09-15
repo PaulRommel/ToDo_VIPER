@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  TaskApp
+//  VipToDoer
 //
-//  Created by Pavel Popov on 14.09.2024.
+//  Created by Pavel Popov on 06.09.2024.
 //
 
 import CoreData
@@ -28,7 +28,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "TaskApp")
+        container = NSPersistentContainer(name: "VipToDoer")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

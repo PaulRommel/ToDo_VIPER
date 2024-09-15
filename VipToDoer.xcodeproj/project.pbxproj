@@ -7,74 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A01505142C955BEA000FBF57 /* TaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505132C955BEA000FBF57 /* TaskAppApp.swift */; };
-		A01505182C955BEB000FBF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01505172C955BEB000FBF57 /* Assets.xcassets */; };
-		A015051B2C955BEB000FBF57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A015051A2C955BEB000FBF57 /* Preview Assets.xcassets */; };
-		A015051D2C955BEB000FBF57 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015051C2C955BEB000FBF57 /* Persistence.swift */; };
-		A015052A2C955BEB000FBF57 /* TaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505292C955BEB000FBF57 /* TaskAppTests.swift */; };
-		A01505342C955BEB000FBF57 /* TaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505332C955BEB000FBF57 /* TaskAppUITests.swift */; };
-		A01505362C955BEB000FBF57 /* TaskAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505352C955BEB000FBF57 /* TaskAppUITestsLaunchTests.swift */; };
-		A01505472C956171000FBF57 /* TaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A01505452C956171000FBF57 /* TaskApp.xcdatamodeld */; };
-		A01505492C9561FA000FBF57 /* TaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505482C9561FA000FBF57 /* TaskInteractor.swift */; };
-		A015054B2C956222000FBF57 /* TaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015054A2C956222000FBF57 /* TaskPresenter.swift */; };
-		A015054D2C9562BF000FBF57 /* TaskRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015054C2C9562BF000FBF57 /* TaskRouter.swift */; };
-		A015054F2C956759000FBF57 /* TaskEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015054E2C956759000FBF57 /* TaskEntity.swift */; };
-		A01505512C956928000FBF57 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01505502C956928000FBF57 /* TaskListView.swift */; };
+		A0F656652C8B900F002BF7D5 /* VipToDoerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656642C8B900F002BF7D5 /* VipToDoerApp.swift */; };
+		A0F656672C8B900F002BF7D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656662C8B900F002BF7D5 /* ContentView.swift */; };
+		A0F656692C8B9010002BF7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F656682C8B9010002BF7D5 /* Assets.xcassets */; };
+		A0F6566C2C8B9010002BF7D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F6566B2C8B9010002BF7D5 /* Preview Assets.xcassets */; };
+		A0F6566E2C8B9010002BF7D5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6566D2C8B9010002BF7D5 /* Persistence.swift */; };
+		A0F656712C8B9010002BF7D5 /* VipToDoer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F6566F2C8B9010002BF7D5 /* VipToDoer.xcdatamodeld */; };
+		A0F6567B2C8B9010002BF7D5 /* VipToDoerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6567A2C8B9010002BF7D5 /* VipToDoerTests.swift */; };
+		A0F656852C8B9010002BF7D5 /* VipToDoerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656842C8B9010002BF7D5 /* VipToDoerUITests.swift */; };
+		A0F656872C8B9010002BF7D5 /* VipToDoerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656862C8B9010002BF7D5 /* VipToDoerUITestsLaunchTests.swift */; };
+		A0F656952C8B9229002BF7D5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656942C8B9229002BF7D5 /* Home.swift */; };
+		A0F656972C8B97B7002BF7D5 /* CustomFilteringDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656962C8B97B7002BF7D5 /* CustomFilteringDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A01505262C955BEB000FBF57 /* PBXContainerItemProxy */ = {
+		A0F656772C8B9010002BF7D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A01505082C955BE9000FBF57 /* Project object */;
+			containerPortal = A0F656592C8B900F002BF7D5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A015050F2C955BEA000FBF57;
-			remoteInfo = TaskApp;
+			remoteGlobalIDString = A0F656602C8B900F002BF7D5;
+			remoteInfo = VipToDoer;
 		};
-		A01505302C955BEB000FBF57 /* PBXContainerItemProxy */ = {
+		A0F656812C8B9010002BF7D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A01505082C955BE9000FBF57 /* Project object */;
+			containerPortal = A0F656592C8B900F002BF7D5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A015050F2C955BEA000FBF57;
-			remoteInfo = TaskApp;
+			remoteGlobalIDString = A0F656602C8B900F002BF7D5;
+			remoteInfo = VipToDoer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A01505102C955BEA000FBF57 /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01505132C955BEA000FBF57 /* TaskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppApp.swift; sourceTree = "<group>"; };
-		A01505172C955BEB000FBF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A015051A2C955BEB000FBF57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A015051C2C955BEB000FBF57 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A01505252C955BEB000FBF57 /* TaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01505292C955BEB000FBF57 /* TaskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppTests.swift; sourceTree = "<group>"; };
-		A015052F2C955BEB000FBF57 /* TaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01505332C955BEB000FBF57 /* TaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITests.swift; sourceTree = "<group>"; };
-		A01505352C955BEB000FBF57 /* TaskAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A01505462C956171000FBF57 /* TaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskApp.xcdatamodel; sourceTree = "<group>"; };
-		A01505482C9561FA000FBF57 /* TaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInteractor.swift; sourceTree = "<group>"; };
-		A015054A2C956222000FBF57 /* TaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenter.swift; sourceTree = "<group>"; };
-		A015054C2C9562BF000FBF57 /* TaskRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRouter.swift; sourceTree = "<group>"; };
-		A015054E2C956759000FBF57 /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
-		A01505502C956928000FBF57 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
-		A0E46BE72C9575D100913341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A0F656612C8B900F002BF7D5 /* VipToDoer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipToDoer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F656642C8B900F002BF7D5 /* VipToDoerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipToDoerApp.swift; sourceTree = "<group>"; };
+		A0F656662C8B900F002BF7D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0F656682C8B9010002BF7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0F6566B2C8B9010002BF7D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0F6566D2C8B9010002BF7D5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A0F656702C8B9010002BF7D5 /* VipToDoer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VipToDoer.xcdatamodel; sourceTree = "<group>"; };
+		A0F656762C8B9010002BF7D5 /* VipToDoerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipToDoerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F6567A2C8B9010002BF7D5 /* VipToDoerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipToDoerTests.swift; sourceTree = "<group>"; };
+		A0F656802C8B9010002BF7D5 /* VipToDoerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipToDoerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F656842C8B9010002BF7D5 /* VipToDoerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipToDoerUITests.swift; sourceTree = "<group>"; };
+		A0F656862C8B9010002BF7D5 /* VipToDoerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipToDoerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0F656942C8B9229002BF7D5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A0F656962C8B97B7002BF7D5 /* CustomFilteringDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilteringDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A015050D2C955BEA000FBF57 /* Frameworks */ = {
+		A0F6565E2C8B900F002BF7D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A01505222C955BEB000FBF57 /* Frameworks */ = {
+		A0F656732C8B9010002BF7D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A015052C2C955BEB000FBF57 /* Frameworks */ = {
+		A0F6567D2C8B9010002BF7D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,157 +79,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A01505072C955BE9000FBF57 = {
+		A0F656582C8B900F002BF7D5 = {
 			isa = PBXGroup;
 			children = (
-				A01505122C955BEA000FBF57 /* TaskApp */,
-				A01505282C955BEB000FBF57 /* TaskAppTests */,
-				A01505322C955BEB000FBF57 /* TaskAppUITests */,
-				A01505112C955BEA000FBF57 /* Products */,
+				A0F656632C8B900F002BF7D5 /* VipToDoer */,
+				A0F656792C8B9010002BF7D5 /* VipToDoerTests */,
+				A0F656832C8B9010002BF7D5 /* VipToDoerUITests */,
+				A0F656622C8B900F002BF7D5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A01505112C955BEA000FBF57 /* Products */ = {
+		A0F656622C8B900F002BF7D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A01505102C955BEA000FBF57 /* TaskApp.app */,
-				A01505252C955BEB000FBF57 /* TaskAppTests.xctest */,
-				A015052F2C955BEB000FBF57 /* TaskAppUITests.xctest */,
+				A0F656612C8B900F002BF7D5 /* VipToDoer.app */,
+				A0F656762C8B9010002BF7D5 /* VipToDoerTests.xctest */,
+				A0F656802C8B9010002BF7D5 /* VipToDoerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A01505122C955BEA000FBF57 /* TaskApp */ = {
+		A0F656632C8B900F002BF7D5 /* VipToDoer */ = {
 			isa = PBXGroup;
 			children = (
-				A0E46BE72C9575D100913341 /* Info.plist */,
-				A01505422C955C5A000FBF57 /* Modules */,
-				A01505132C955BEA000FBF57 /* TaskAppApp.swift */,
-				A01505172C955BEB000FBF57 /* Assets.xcassets */,
-				A015051C2C955BEB000FBF57 /* Persistence.swift */,
-				A01505452C956171000FBF57 /* TaskApp.xcdatamodeld */,
-				A01505192C955BEB000FBF57 /* Preview Content */,
+				A0F656932C8B9213002BF7D5 /* View */,
+				A0F656642C8B900F002BF7D5 /* VipToDoerApp.swift */,
+				A0F656662C8B900F002BF7D5 /* ContentView.swift */,
+				A0F656682C8B9010002BF7D5 /* Assets.xcassets */,
+				A0F6566D2C8B9010002BF7D5 /* Persistence.swift */,
+				A0F6566F2C8B9010002BF7D5 /* VipToDoer.xcdatamodeld */,
+				A0F6566A2C8B9010002BF7D5 /* Preview Content */,
 			);
-			path = TaskApp;
+			path = VipToDoer;
 			sourceTree = "<group>";
 		};
-		A01505192C955BEB000FBF57 /* Preview Content */ = {
+		A0F6566A2C8B9010002BF7D5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A015051A2C955BEB000FBF57 /* Preview Assets.xcassets */,
+				A0F6566B2C8B9010002BF7D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A01505282C955BEB000FBF57 /* TaskAppTests */ = {
+		A0F656792C8B9010002BF7D5 /* VipToDoerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A01505292C955BEB000FBF57 /* TaskAppTests.swift */,
+				A0F6567A2C8B9010002BF7D5 /* VipToDoerTests.swift */,
 			);
-			path = TaskAppTests;
+			path = VipToDoerTests;
 			sourceTree = "<group>";
 		};
-		A01505322C955BEB000FBF57 /* TaskAppUITests */ = {
+		A0F656832C8B9010002BF7D5 /* VipToDoerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A01505332C955BEB000FBF57 /* TaskAppUITests.swift */,
-				A01505352C955BEB000FBF57 /* TaskAppUITestsLaunchTests.swift */,
+				A0F656842C8B9010002BF7D5 /* VipToDoerUITests.swift */,
+				A0F656862C8B9010002BF7D5 /* VipToDoerUITestsLaunchTests.swift */,
 			);
-			path = TaskAppUITests;
+			path = VipToDoerUITests;
 			sourceTree = "<group>";
 		};
-		A01505422C955C5A000FBF57 /* Modules */ = {
+		A0F656932C8B9213002BF7D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A01505502C956928000FBF57 /* TaskListView.swift */,
-				A01505482C9561FA000FBF57 /* TaskInteractor.swift */,
-				A015054A2C956222000FBF57 /* TaskPresenter.swift */,
-				A015054E2C956759000FBF57 /* TaskEntity.swift */,
-				A015054C2C9562BF000FBF57 /* TaskRouter.swift */,
+				A0F656942C8B9229002BF7D5 /* Home.swift */,
+				A0F656962C8B97B7002BF7D5 /* CustomFilteringDataView.swift */,
 			);
-			path = Modules;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A015050F2C955BEA000FBF57 /* TaskApp */ = {
+		A0F656602C8B900F002BF7D5 /* VipToDoer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A01505392C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskApp" */;
+			buildConfigurationList = A0F6568A2C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoer" */;
 			buildPhases = (
-				A015050C2C955BEA000FBF57 /* Sources */,
-				A015050D2C955BEA000FBF57 /* Frameworks */,
-				A015050E2C955BEA000FBF57 /* Resources */,
+				A0F6565D2C8B900F002BF7D5 /* Sources */,
+				A0F6565E2C8B900F002BF7D5 /* Frameworks */,
+				A0F6565F2C8B900F002BF7D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TaskApp;
-			productName = TaskApp;
-			productReference = A01505102C955BEA000FBF57 /* TaskApp.app */;
+			name = VipToDoer;
+			productName = VipToDoer;
+			productReference = A0F656612C8B900F002BF7D5 /* VipToDoer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A01505242C955BEB000FBF57 /* TaskAppTests */ = {
+		A0F656752C8B9010002BF7D5 /* VipToDoerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A015053C2C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskAppTests" */;
+			buildConfigurationList = A0F6568D2C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoerTests" */;
 			buildPhases = (
-				A01505212C955BEB000FBF57 /* Sources */,
-				A01505222C955BEB000FBF57 /* Frameworks */,
-				A01505232C955BEB000FBF57 /* Resources */,
+				A0F656722C8B9010002BF7D5 /* Sources */,
+				A0F656732C8B9010002BF7D5 /* Frameworks */,
+				A0F656742C8B9010002BF7D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A01505272C955BEB000FBF57 /* PBXTargetDependency */,
+				A0F656782C8B9010002BF7D5 /* PBXTargetDependency */,
 			);
-			name = TaskAppTests;
-			productName = TaskAppTests;
-			productReference = A01505252C955BEB000FBF57 /* TaskAppTests.xctest */;
+			name = VipToDoerTests;
+			productName = VipToDoerTests;
+			productReference = A0F656762C8B9010002BF7D5 /* VipToDoerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A015052E2C955BEB000FBF57 /* TaskAppUITests */ = {
+		A0F6567F2C8B9010002BF7D5 /* VipToDoerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A015053F2C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskAppUITests" */;
+			buildConfigurationList = A0F656902C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoerUITests" */;
 			buildPhases = (
-				A015052B2C955BEB000FBF57 /* Sources */,
-				A015052C2C955BEB000FBF57 /* Frameworks */,
-				A015052D2C955BEB000FBF57 /* Resources */,
+				A0F6567C2C8B9010002BF7D5 /* Sources */,
+				A0F6567D2C8B9010002BF7D5 /* Frameworks */,
+				A0F6567E2C8B9010002BF7D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A01505312C955BEB000FBF57 /* PBXTargetDependency */,
+				A0F656822C8B9010002BF7D5 /* PBXTargetDependency */,
 			);
-			name = TaskAppUITests;
-			productName = TaskAppUITests;
-			productReference = A015052F2C955BEB000FBF57 /* TaskAppUITests.xctest */;
+			name = VipToDoerUITests;
+			productName = VipToDoerUITests;
+			productReference = A0F656802C8B9010002BF7D5 /* VipToDoerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A01505082C955BE9000FBF57 /* Project object */ = {
+		A0F656592C8B900F002BF7D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					A015050F2C955BEA000FBF57 = {
+					A0F656602C8B900F002BF7D5 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					A01505242C955BEB000FBF57 = {
+					A0F656752C8B9010002BF7D5 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A015050F2C955BEA000FBF57;
+						TestTargetID = A0F656602C8B900F002BF7D5;
 					};
-					A015052E2C955BEB000FBF57 = {
+					A0F6567F2C8B9010002BF7D5 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A015050F2C955BEA000FBF57;
+						TestTargetID = A0F656602C8B900F002BF7D5;
 					};
 				};
 			};
-			buildConfigurationList = A015050B2C955BE9000FBF57 /* Build configuration list for PBXProject "TaskApp" */;
+			buildConfigurationList = A0F6565C2C8B900F002BF7D5 /* Build configuration list for PBXProject "VipToDoer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,36 +234,36 @@
 				en,
 				Base,
 			);
-			mainGroup = A01505072C955BE9000FBF57;
-			productRefGroup = A01505112C955BEA000FBF57 /* Products */;
+			mainGroup = A0F656582C8B900F002BF7D5;
+			productRefGroup = A0F656622C8B900F002BF7D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A015050F2C955BEA000FBF57 /* TaskApp */,
-				A01505242C955BEB000FBF57 /* TaskAppTests */,
-				A015052E2C955BEB000FBF57 /* TaskAppUITests */,
+				A0F656602C8B900F002BF7D5 /* VipToDoer */,
+				A0F656752C8B9010002BF7D5 /* VipToDoerTests */,
+				A0F6567F2C8B9010002BF7D5 /* VipToDoerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A015050E2C955BEA000FBF57 /* Resources */ = {
+		A0F6565F2C8B900F002BF7D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A015051B2C955BEB000FBF57 /* Preview Assets.xcassets in Resources */,
-				A01505182C955BEB000FBF57 /* Assets.xcassets in Resources */,
+				A0F6566C2C8B9010002BF7D5 /* Preview Assets.xcassets in Resources */,
+				A0F656692C8B9010002BF7D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A01505232C955BEB000FBF57 /* Resources */ = {
+		A0F656742C8B9010002BF7D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A015052D2C955BEB000FBF57 /* Resources */ = {
+		A0F6567E2C8B9010002BF7D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,55 +273,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A015050C2C955BEA000FBF57 /* Sources */ = {
+		A0F6565D2C8B900F002BF7D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A015051D2C955BEB000FBF57 /* Persistence.swift in Sources */,
-				A01505512C956928000FBF57 /* TaskListView.swift in Sources */,
-				A01505142C955BEA000FBF57 /* TaskAppApp.swift in Sources */,
-				A015054F2C956759000FBF57 /* TaskEntity.swift in Sources */,
-				A01505472C956171000FBF57 /* TaskApp.xcdatamodeld in Sources */,
-				A01505492C9561FA000FBF57 /* TaskInteractor.swift in Sources */,
-				A015054B2C956222000FBF57 /* TaskPresenter.swift in Sources */,
-				A015054D2C9562BF000FBF57 /* TaskRouter.swift in Sources */,
+				A0F6566E2C8B9010002BF7D5 /* Persistence.swift in Sources */,
+				A0F656672C8B900F002BF7D5 /* ContentView.swift in Sources */,
+				A0F656952C8B9229002BF7D5 /* Home.swift in Sources */,
+				A0F656712C8B9010002BF7D5 /* VipToDoer.xcdatamodeld in Sources */,
+				A0F656972C8B97B7002BF7D5 /* CustomFilteringDataView.swift in Sources */,
+				A0F656652C8B900F002BF7D5 /* VipToDoerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A01505212C955BEB000FBF57 /* Sources */ = {
+		A0F656722C8B9010002BF7D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A015052A2C955BEB000FBF57 /* TaskAppTests.swift in Sources */,
+				A0F6567B2C8B9010002BF7D5 /* VipToDoerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A015052B2C955BEB000FBF57 /* Sources */ = {
+		A0F6567C2C8B9010002BF7D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01505342C955BEB000FBF57 /* TaskAppUITests.swift in Sources */,
-				A01505362C955BEB000FBF57 /* TaskAppUITestsLaunchTests.swift in Sources */,
+				A0F656852C8B9010002BF7D5 /* VipToDoerUITests.swift in Sources */,
+				A0F656872C8B9010002BF7D5 /* VipToDoerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A01505272C955BEB000FBF57 /* PBXTargetDependency */ = {
+		A0F656782C8B9010002BF7D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A015050F2C955BEA000FBF57 /* TaskApp */;
-			targetProxy = A01505262C955BEB000FBF57 /* PBXContainerItemProxy */;
+			target = A0F656602C8B900F002BF7D5 /* VipToDoer */;
+			targetProxy = A0F656772C8B9010002BF7D5 /* PBXContainerItemProxy */;
 		};
-		A01505312C955BEB000FBF57 /* PBXTargetDependency */ = {
+		A0F656822C8B9010002BF7D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A015050F2C955BEA000FBF57 /* TaskApp */;
-			targetProxy = A01505302C955BEB000FBF57 /* PBXContainerItemProxy */;
+			target = A0F656602C8B900F002BF7D5 /* VipToDoer */;
+			targetProxy = A0F656812C8B9010002BF7D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A01505372C955BEB000FBF57 /* Debug */ = {
+		A0F656882C8B9010002BF7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		A01505382C955BEB000FBF57 /* Release */ = {
+		A0F656892C8B9010002BF7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,18 +433,18 @@
 			};
 			name = Release;
 		};
-		A015053A2C955BEB000FBF57 /* Debug */ = {
+		A0F6568B2C8B9010002BF7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TaskApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VipToDoer/Preview Content\"";
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -464,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,18 +462,18 @@
 			};
 			name = Debug;
 		};
-		A015053B2C955BEB000FBF57 /* Release */ = {
+		A0F6568C2C8B9010002BF7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TaskApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VipToDoer/Preview Content\"";
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -493,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskApp;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,7 +491,7 @@
 			};
 			name = Release;
 		};
-		A015053D2C955BEB000FBF57 /* Debug */ = {
+		A0F6568E2C8B9010002BF7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,16 +502,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipToDoer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VipToDoer";
 			};
 			name = Debug;
 		};
-		A015053E2C955BEB000FBF57 /* Release */ = {
+		A0F6568F2C8B9010002BF7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,16 +522,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipToDoer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VipToDoer";
 			};
 			name = Release;
 		};
-		A01505402C955BEB000FBF57 /* Debug */ = {
+		A0F656912C8B9010002BF7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,16 +540,16 @@
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskApp;
+				TEST_TARGET_NAME = VipToDoer;
 			};
 			name = Debug;
 		};
-		A01505412C955BEB000FBF57 /* Release */ = {
+		A0F656922C8B9010002BF7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -568,50 +558,50 @@
 				DEVELOPMENT_TEAM = 7TQLZFHBG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.TaskAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MochaFresh.VipToDoerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskApp;
+				TEST_TARGET_NAME = VipToDoer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A015050B2C955BE9000FBF57 /* Build configuration list for PBXProject "TaskApp" */ = {
+		A0F6565C2C8B900F002BF7D5 /* Build configuration list for PBXProject "VipToDoer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A01505372C955BEB000FBF57 /* Debug */,
-				A01505382C955BEB000FBF57 /* Release */,
+				A0F656882C8B9010002BF7D5 /* Debug */,
+				A0F656892C8B9010002BF7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A01505392C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskApp" */ = {
+		A0F6568A2C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A015053A2C955BEB000FBF57 /* Debug */,
-				A015053B2C955BEB000FBF57 /* Release */,
+				A0F6568B2C8B9010002BF7D5 /* Debug */,
+				A0F6568C2C8B9010002BF7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A015053C2C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskAppTests" */ = {
+		A0F6568D2C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A015053D2C955BEB000FBF57 /* Debug */,
-				A015053E2C955BEB000FBF57 /* Release */,
+				A0F6568E2C8B9010002BF7D5 /* Debug */,
+				A0F6568F2C8B9010002BF7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A015053F2C955BEB000FBF57 /* Build configuration list for PBXNativeTarget "TaskAppUITests" */ = {
+		A0F656902C8B9010002BF7D5 /* Build configuration list for PBXNativeTarget "VipToDoerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A01505402C955BEB000FBF57 /* Debug */,
-				A01505412C955BEB000FBF57 /* Release */,
+				A0F656912C8B9010002BF7D5 /* Debug */,
+				A0F656922C8B9010002BF7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -619,17 +609,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A01505452C956171000FBF57 /* TaskApp.xcdatamodeld */ = {
+		A0F6566F2C8B9010002BF7D5 /* VipToDoer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A01505462C956171000FBF57 /* TaskApp.xcdatamodel */,
+				A0F656702C8B9010002BF7D5 /* VipToDoer.xcdatamodel */,
 			);
-			currentVersion = A01505462C956171000FBF57 /* TaskApp.xcdatamodel */;
-			path = TaskApp.xcdatamodeld;
+			currentVersion = A0F656702C8B9010002BF7D5 /* VipToDoer.xcdatamodel */;
+			path = VipToDoer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A01505082C955BE9000FBF57 /* Project object */;
+	rootObject = A0F656592C8B900F002BF7D5 /* Project object */;
 }

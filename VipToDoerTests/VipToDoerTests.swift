@@ -1,14 +1,14 @@
 //
-//  TaskAppTests.swift
-//  TaskAppTests
+//  VipToDoerTests.swift
+//  VipToDoerTests
 //
-//  Created by Pavel Popov on 14.09.2024.
+//  Created by Pavel Popov on 06.09.2024.
 //
 
 import XCTest
-@testable import TaskApp
+@testable import VipToDoer
 
-final class TaskAppTests: XCTestCase {
+final class VipToDoerTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
