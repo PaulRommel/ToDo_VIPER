@@ -4,6 +4,7 @@
 //
 //  Created by Pavel Popov on 06.09.2024.
 //
+//
 
 import SwiftUI
 
@@ -13,15 +14,15 @@ struct Home: View {
     @State private var filterDate: Date = .init()
     @State private var showPendingTask: Bool = true
     @State private var showCompletedTask: Bool = true
-    
+
     var body: some View {
         List {
             DatePicker(selection: $filterDate, displayedComponents: [.date]) {
-                
+
             }
             .labelsHidden()
             .datePickerStyle(.graphical)
-            
+
             CustomFilteringDataView(filterData: $filterDate) { pendingTasks, completedTasks in
                 DisclosureGroup(isExpanded: $showPendingTask) {
                     /// Custom Core Data Filter View, Wich will Display Only Pending Tasks on this Day
@@ -39,7 +40,7 @@ struct Home: View {
                         .font(.caption)
                         .foregroundColor(.gray)
                 }
-                
+
                 DisclosureGroup(isExpanded: $showCompletedTask) {
                     /// Custom Core Data Filter View, Wich will Display Only Completed Tasks on this Day
                     if completedTasks.isEmpty {
@@ -69,7 +70,7 @@ struct Home: View {
                         task.date = filterDate
                         task.todo = ""
                         task.isCompleted = false
-                        
+
                         try env.managedObjectContext.save()
                         showPendingTask = true
                     } catch {
@@ -79,7 +80,7 @@ struct Home: View {
                     HStack  {
                         Image(systemName: "plus.circle.fill")
                             .font(.title3)
-                        
+
                         Text("New Task")
                     }
                     .fontWeight(.bold)
@@ -127,7 +128,7 @@ struct TaskRow: View {
                 }
                 .foregroundColor(isPendingTask ? .primary : .gray)
                 .strikethrough(!isPendingTask, pattern: .dash, color: .primary)
-                
+
                 /// Custom Data Picker
                 Text((task.date ?? .init()).formatted(date: .omitted, time: .shortened))
                     .font(.callout)
@@ -140,7 +141,7 @@ struct TaskRow: View {
                             /// Saving Date When ever it's Updated
                             save()
                         }), displayedComponents: [.hourAndMinute]) {
-                            
+
                         }
                         .labelsHidden()
                         /// Hiding View by Utillizing BlendMode Modifier
@@ -182,7 +183,7 @@ struct TaskRow: View {
 
         }
     }
-    
+
     /// Context Saving Methode
     func save() {
         do {
@@ -191,7 +192,7 @@ struct TaskRow: View {
             print(error.localizedDescription)
         }
     }
-    
+
     /// Removing Empty Task
     func removeEmptyTask() {
         if (task.todo ?? "").isEmpty {

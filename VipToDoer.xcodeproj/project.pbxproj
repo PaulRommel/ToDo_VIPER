@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A046EF3F2C9A018D001E3DEA /* ServiceJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046EF3E2C9A018D001E3DEA /* ServiceJSON.swift */; };
 		A0F656652C8B900F002BF7D5 /* VipToDoerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656642C8B900F002BF7D5 /* VipToDoerApp.swift */; };
 		A0F656672C8B900F002BF7D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F656662C8B900F002BF7D5 /* ContentView.swift */; };
 		A0F656692C8B9010002BF7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F656682C8B9010002BF7D5 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A046EF3E2C9A018D001E3DEA /* ServiceJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceJSON.swift; sourceTree = "<group>"; };
 		A0F656612C8B900F002BF7D5 /* VipToDoer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipToDoer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F656642C8B900F002BF7D5 /* VipToDoerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipToDoerApp.swift; sourceTree = "<group>"; };
 		A0F656662C8B900F002BF7D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				A0F656942C8B9229002BF7D5 /* Home.swift */,
 				A0F656962C8B97B7002BF7D5 /* CustomFilteringDataView.swift */,
+				A046EF3E2C9A018D001E3DEA /* ServiceJSON.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				A0F6566E2C8B9010002BF7D5 /* Persistence.swift in Sources */,
 				A0F656672C8B900F002BF7D5 /* ContentView.swift in Sources */,
+				A046EF3F2C9A018D001E3DEA /* ServiceJSON.swift in Sources */,
 				A0F656952C8B9229002BF7D5 /* Home.swift in Sources */,
 				A0F656712C8B9010002BF7D5 /* VipToDoer.xcdatamodeld in Sources */,
 				A0F656972C8B97B7002BF7D5 /* CustomFilteringDataView.swift in Sources */,
